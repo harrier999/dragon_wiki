@@ -11,18 +11,36 @@
             border-bottom: black solid 1px;
             padding: 10px;
         }
-
+        #grid{
+            display: grid;
+            grid-template-columns: 110px 1fr;
+        }
+        #index a{
+            text-decoration: none;
+            color: black;
+            
+        }
     </style>
 
     
 </head>
 <body>
     <h1 id="title">재용 위키</h1>
-    <div>
+    <div id="grid">
+        <ol id="index">
+            <li><a href="1.naver.com">네이버</a></li>
+            <li><a href="2.google.com">구글</a></li>
+        </ol>
         <img src="KakaoTalk_20210101_000954905.jpg" height="300">
     </div>
     <script id="dsq-count-scr" src="//dragon-wiki.disqus.com/count.js" async></script>
 </body>
+
+
+
+
+
+
 <div id="disqus_thread"></div>
 <script>
     (function() { // DON'T EDIT BELOW THIS LINE
